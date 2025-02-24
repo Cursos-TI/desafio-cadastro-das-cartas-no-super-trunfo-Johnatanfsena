@@ -18,5 +18,17 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+    char estado[50]= "Minas Gerais";
+    char cidade[50]= "Belo Horizonte";
+    char codigo[10]= "A1";
+    int populacao= 230000000;
+    float area= 331.4;
+    float pib= 185239264.123;
+    int numero = 56;
+
+    printf("Brasil");
+
+
+
     return 0;
 }
