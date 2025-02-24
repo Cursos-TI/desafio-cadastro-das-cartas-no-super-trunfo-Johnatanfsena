@@ -20,7 +20,7 @@ int main() {
     
     printf("Brasil\n");
 
-    // Primeira Cidade
+    // Primeira Estado
 
     char estado[50]= "Minas Gerais";
     char cidade[50]= "Belo Horizonte";
@@ -40,11 +40,11 @@ int main() {
     printf("PIB: %.2f\n",pib);
     printf("Numero de pontos turisticos: %d\n\n", numero);
 
-    // Segunda Cidade
+    // Segundo Estado
 
     char estado1[40]= "Rio de Janeiro";
     char cidade1[40]= "Niteroi";
-    char codigo1[10]= "A02";
+    char codigo1[10]= "B01";
     int populacao1= 1000000;
     float area1= 150.6;
     float pib1= 15000000.16;
