@@ -20,6 +20,8 @@ int main() {
     
     printf("Brasil\n");
 
+    // Primeira Cidade
+
     char estado[50]= "Minas Gerais";
     char cidade[50]= "Belo Horizonte";
     char codigo[10]= "A1";
@@ -32,26 +34,27 @@ int main() {
     printf("Cidade: %s\n",cidade);
     printf("Código da carta: %s\n",codigo);
     printf("População: %d\n", populacao);
-    printf("Área por km: %2f\n", area);
-    printf("PIB: %2f\n",pib);
+    printf("Área por km: %.2f\n", area);
+    printf("PIB: %.2f\n",pib);
     printf("Numero de pontos turisticos: %d\n", numero);
 
+    // Segunda Cidade
 
-    char estado[40]= "Minas Gerais";
-    char cidade[40]= "Vespasiano";
-    char codigo[10]= "A2";
-    int populacao= 1000000;
-    float area= 150.6;
-    float pib= 15000000.16;
-    int numero= 16;
+    char estado1[40]= "Minas Gerais";
+    char cidade1[40]= "Vespasiano";
+    char codigo1[10]= "A2";
+    int populacao1= 1000000;
+    float area1= 150.6;
+    float pib1= 15000000.16;
+    int numero1= 16;
 
-    printf("Estado: %s\n", estado);
-    printf("Cidade: %s\n", cidade);
-    printf("Código da carta: %s\n,codigo");
-    printf("População: %d\n", populacao);
-    printf("Área: %2f\n", area);
-    printf("PIB: %2f\n", pib);
-    printf("Numero de pontos turisticos: %d\n", numero);
+    printf("Estado: %s\n", estado1);
+    printf("Cidade: %s\n", cidade1);
+    printf("Código da carta: %s\n",codigo1);
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2f\n", area1);
+    printf("PIB: %.2f\n", pib1);
+    printf("Numero de pontos turisticos: %d\n", numero1);
     
 
 
