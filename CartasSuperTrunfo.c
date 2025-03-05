@@ -51,7 +51,7 @@ int main() {
     char codigo1[10]= "B01";
     int populacao1= 1503000;
     float area1= 150.6;
-    float pib1= 15000000.16;
+    float pib1= 950.00;
     int numero1= 32;
     // calculos
     float densidade1 = (populacao1 / area1);
